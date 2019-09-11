@@ -14,7 +14,7 @@ Ca va etre un joli bordel, on va faire un dossier par equipe. Ceux qui ne savent
 6 catégories : 
 - paysage
 - monument
-- nourriture
+- galaxie
 - portrait
 - animal
 - véhicule
