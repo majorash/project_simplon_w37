@@ -9,3 +9,12 @@ Ca va etre un joli bordel, on va faire un dossier par equipe. Ceux qui ne savent
 | Celia         | Joris (lead)    | Lucas (Lead)   | Matthieu D(Lead)| Mathieu L      | Flo(Lead)      |
 |               | Petit Flo       | Chris          | Mathieu P       |                | Isleme         |
 |               | Benjamin        | Melo           |                 |                |                |
+
+
+6 catégories : 
+- paysage
+- monument
+- nourriture
+- portrait
+- animal
+- véhicule
