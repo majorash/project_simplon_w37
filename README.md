@@ -6,8 +6,8 @@ Ca va etre un joli bordel, on va faire un dossier par equipe. Ceux qui ne savent
 
 | Scrum master  |     Scrap       |     ML         |     Flask       |    Data Eng    |    NLP         |
 | :------------:| :-------------: | :------------: | :-------------: | :------------: | :------------: |
-| Celia         | Joris (lead)    | Lucas (Lead)   | Matthieu D(Lead)| Mathieu L      | Flo(Lead)      |
-|               | Petit Flo       | Chris          | Mathieu P       |                | Isleme         |
+| Celia         | Petit Flo (lead)| Lucas (Lead)   | Matthieu D(Lead)| Mathieu L      | Flo(Lead)      |
+|               | Joris           | Chris          | Mathieu P       |                | Isleme         |
 |               | Benjamin        | Melo           |                 |                |                |
 
 
