@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS images (
   user smallint(5) unsigned DEFAULT NULL,
   category char(15) DEFAULT NULL,
   url char(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 -- Table structure for table users
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS users (
   id_usr smallint(5) unsigned NOT NULL,
   email varchar(100) NOT NULL,
   password char(64) NOT NULL,
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8_unicode_ci;
 
 --
 -- Indexes for table images
