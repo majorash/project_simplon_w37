@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Create an Album
+</h1>
+<h2 class="subtitle">
+  Upload your .zip file
+</h2>
+
+
+<br>
+<br>
+
+
+<div class="columns is-mobile">
+    <div class="column is-half is-offset-one-quarter">
+
+        <form method="POST" enctype=multipart/form-data>
+
+          <div class="field">
+              <div class="control">
+                  <input class="input" type="text" placeholder="Album Name" name="album_name">
+              </div>
+          </div>
+        
+          <div class="field">
+        
+              <div class="control">
+                  
+                <div class="file has-name">
+                  <label class="file-label">
+                    <input class="file-input" type=file name=file>
+                    <span class="file-cta">
+                      <span class="file-icon">
+                        <i class="fas fa-upload"></i>
+                      </span>
+                      <span class="file-label">
+                        Choose a file…
+                      </span>
+                    </span>
+                    <span class="file-name">
+                      .zip allows
+                    </span>
+                  </label>
+                </div>
+        
+              </div>
+          </div>
+        
+        
+          <button class="button is-block is-fullwidth is-primary is-inverted">Upload</button>
+        </form>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+{% endblock %}

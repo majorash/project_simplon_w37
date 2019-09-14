@@ -1,0 +1,48 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+
+</h1>
+
+<div class="columns is-multiline is-centered is-inverted">
+<div class="columns">
+  <div class="column">
+    <a href="{{ url_for('main.upload_file') }}" class="button is-primary is-outlined">CREER UN ALBUM</a>
+</div>
+</div>
+
+<br>
+<br>
+
+</div>
+      
+<div class="columns is-multiline is-centered">
+    {% for i in alb %}
+    <div class="column is-one-quarter-desktop is-half-tablet is-centered">
+      <div class="card">
+          <div class="card-image">
+              <figure class="image is-3by2 is-primary i"></figure>
+                
+              </figure>
+              <div class="card-content is-overlay is-clipped is-rounded">
+                
+                  <form method="POST" enctype=multipart/form-data>
+                    <h1 class="title has-text-primary">
+                        {{ i }}
+                      </h1>
+                    <input type="text" name="lib" value="{{ i }}" style="display:none;"> 
+
+                    <button class="button is-block is-primary is-info is-fullwidth is-outlined">Afficher</button>
+                  </form>
+  
+                      
+              </div>
+          </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
