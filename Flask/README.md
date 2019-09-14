@@ -1,5 +1,7 @@
 v1 : implementation du modele de Melody
 
+/!\ Fonctionne uniquement sur linux en attendant le Docker
+
 Pour lancer l'application :
   1. Telechargez le dossier 
   2. Sur votre CLI rendez vous sur : ```/project_simplon_w37/Flask/```, n'entrez pas dans le dossier project.
