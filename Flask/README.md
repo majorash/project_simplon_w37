@@ -18,6 +18,14 @@ Pour lancer l'application :
   12. tapez : ```flask run```
   13. l'application tourne sur ```localhost:5000```
 
+Pour utiliser l'application :
+- Creez un compte utilisateur avec signup
+- loggez vous
+- Cliquez sur Album puis sur 'Create an album'
+- Completez les champs, inserez le fichier zip cat_photos.zip (20 photos recommandees pour conserver une experience fluide)
+- Cliquez sur albums et sur le nom de votre album qui vient d'etre ouvert
+- La predicition est faite à ce moment (c'est moche mais rapide à livrer)
+
 Recommandations :
 Le modele de Melody utilise les services cognitifs azure pour faire la predicition du label, c'est super performant mais ca traite les photos une par une
 Pour une experience otpimale il faudrait utiliser un fichier zip avec pas plus d'une vingtaine de photos.
