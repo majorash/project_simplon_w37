@@ -13,7 +13,7 @@ Pour lancer l'application :
   7. tapez :  ```cd project```
   8. tapez : ```pip install -r requirements.txt```
   9. tapez : ```mkdir static```
-  10. ouvrez le fichier customvision.py et remplacez les valeurs manquantes par celles du txt 'azure_customvision_access_keys.txt'
+  10. ouvrez le fichier customvision.py et remplacez les valeurs manquantes par celles du txt 'azure_customvision_access_keys.txt' (demandez le sur le Discord).
   11 tapez : ```cd ..``` pour retourner sur /project_simplon_w37/Flask/
   12. tapez : ```flask run```
   13. l'application tourne sur ```localhost:5000```
