@@ -21,7 +21,7 @@ publish_iteration_name = "Iteration1"
 trainer = CustomVisionTrainingClient(training_key, endpoint=ENDPOINT)
 predictor = CustomVisionPredictionClient(prediction_key, endpoint=ENDPOINT)
 
-project =  #projetcid
+project =  trainer.get_project('') #projetcid
 
 def classify_photo(url):
 
